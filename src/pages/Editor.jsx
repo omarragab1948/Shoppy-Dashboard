@@ -3,7 +3,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import Header from "../components/Header";
 import "../App.css";
-import { StateContext } from "../contexts/contextProvider";
+import { StateContext } from "../contexts/ContextProvider";
 
 const Editor = () => {
   const { currentColor, currentMode } = useContext(StateContext);
