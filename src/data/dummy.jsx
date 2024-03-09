@@ -10,7 +10,6 @@ import {
 import {
   FiShoppingBag,
   FiEdit,
-  FiPieChart,
   FiBarChart,
   FiCreditCard,
   FiStar,
@@ -18,7 +17,6 @@ import {
 } from "react-icons/fi";
 import {
   BsKanban,
-  BsBarChart,
   BsBoxSeam,
   BsCurrencyDollar,
   BsShield,
@@ -26,19 +24,16 @@ import {
 } from "react-icons/bs";
 import { BiColorFill } from "react-icons/bi";
 import { IoMdContacts } from "react-icons/io";
-import { RiContactsLine, RiStockLine } from "react-icons/ri";
+import { RiContactsLine,  } from "react-icons/ri";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
-import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
 import avatar from "./avatar.jpg";
 import avatar3 from "./avatar3.png";
 import avatar4 from "./avatar4.jpg";
 import product1 from "./product1.jpg";
-import product2 from "./product2.jpg";
 import product3 from "./product3.jpg";
-import product4 from "./product4.jpg";
 import product5 from "./product5.jpg";
 import product6 from "./product6.jpg";
 import product7 from "./product7.jpg";
@@ -801,7 +796,7 @@ export const productsPerformance = [
     earningAmount: "$457,000",
   },
   {
-    image: product4,
+    image: product6,
     title: "Stylish night lamp for night",
     desc: "Electric, Wire, Current",
     rating: "Poor",
@@ -2005,7 +2000,7 @@ export const ordersData = [
     Location: "Germany",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 748975,
@@ -2025,7 +2020,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2,
+    ProductImage: product6,
   },
   {
     OrderID: 944895,
@@ -2045,7 +2040,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 845954,
@@ -2141,7 +2136,7 @@ export const ordersData = [
     Location: "Germany",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 748975,
@@ -2161,7 +2156,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2,
+    ProductImage: product6,
   },
   {
     OrderID: 944895,
@@ -2181,7 +2176,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 845954,
@@ -2277,7 +2272,7 @@ export const ordersData = [
     Location: "Germany",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 748975,
@@ -2297,7 +2292,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2,
+    ProductImage: product3,
   },
   {
     OrderID: 944895,
@@ -2317,7 +2312,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4,
+    ProductImage: product6,
   },
   {
     OrderID: 845954,
