@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import { customersData, customersGrid } from "../data/dummy";
 import { StateContext } from "../contexts/ContextProvider";
 const Customers = () => {
